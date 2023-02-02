@@ -20,7 +20,8 @@ j. Convert the datatype of Calories column to int datatype.
 k. Using pandas create a scatter plot for the two columns (Duration and Calories)
 SOLUTION:
 ========
-
+We have imported the modules pandas and matplotlib.pyplot and then reading the csv file and then performed all the above questions of the data duration and calories
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/122486644/216225518-39cf99a5-80bb-4481-9f30-f2f667cbe8bd.png">
 
 
 
