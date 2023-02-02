@@ -2,7 +2,7 @@
 
 Name: Divya Pothuru 
 NetworkId:DXP62920
-Video Link:
+Video Link: https://drive.google.com/file/d/1EiyJWsTsAVKsi40uW9FPw8gHb-VuqFr5/view?usp=share_link
 
 1.. Data Manipulation
 a. Read the provided CSV file ‘data.csv’.
