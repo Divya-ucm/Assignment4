@@ -33,31 +33,17 @@ d) Calculate the mean_squared error
 e) Visualize both train and test data using scatter plot.
 SOLUTION:
 =========
-#calculating mean squared error
 
-from sklearn.metrics import mean_squared_error
-
-mse = mean_squared_error(Y_Test, Y_Pred)
-print("Mean Squared Error:", mse)
-
-
-
-# Visualising the Training set results
-
-
-plt.scatter(X_Train, Y_Train, color='red')
-plt.plot(X_Train, regressor.predict(X_Train), color='blue')
-plt.title("Salary vs Experience (Training Set)")
-plt.xlabel("Years of Experience")
-plt.ylabel("Salary")
-plt.show()
+first we have imported the csv file and then split the dataset of both training set and test set and then fitting Simple Linear Regression to the training set and then predicting the test set values and then calculating mean squared error and then Visualising the Training set results and test set results.
+Then it displays the graphs of both training set and test set results graph..
+Then output is as follows:
+Training set:
+![image](https://user-images.githubusercontent.com/122486644/216214760-23c497c9-bd85-4cce-ae14-28bd2c886808.png)
+Test set:
+![image](https://user-images.githubusercontent.com/122486644/216214810-b36fed04-25d6-467c-adbb-e6efc35a81bb.png)
+Mean squared error:
+<img width="453" alt="image" src="https://user-images.githubusercontent.com/122486644/216214855-f7dbd7fc-086c-4cab-90bf-466ab6478df7.png">
 
 
-# Visualising the Test set results
-plt.scatter(X_Test, Y_Test, color='red')
-plt.plot(X_Train, regressor.predict(X_Train), color='blue')
-plt.title("Salary vs Experience (Test Set)")
-plt.xlabel("Years of Experience")
-plt.ylabel("Salary")
 
 
